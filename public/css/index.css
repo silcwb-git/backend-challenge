@@ -1,0 +1,27 @@
+body {
+    background-color: beige;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.section {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10%;
+    flex-direction: column;
+}
+.section div {
+    display: flex;
+    justify-content: center
+}
+h1 {
+    font-family: sans-serif;
+}
+input {
+    font-size: 16px;
+    width: 26em;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: #d4d4d4 solid 2px;
+}
